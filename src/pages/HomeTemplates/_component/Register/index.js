@@ -37,7 +37,7 @@ export default class RegisterHome extends Component {
 
                                 <a className="text-primary ml-auto" href='/login'>
                                     Đăng nhập
-                                    <i class='fas fa-arrow-circle-right mx-2'></i>
+                                    <i className='fas fa-arrow-circle-right mx-2'></i>
                                 </a>
                             </div>
                         </form>

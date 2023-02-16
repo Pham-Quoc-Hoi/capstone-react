@@ -23,10 +23,11 @@ export default class LoginUser extends Component {
                                     <a className="btn btn-primary mr-auto" href='/login'>Đăng nhập</a>
                                     <a className="text-success" href='/register'>
                                         Đăng ký
-                                        <i class='fas fa-arrow-circle-right mx-2'></i>
+                                        <i className='fas fa-arrow-circle-right mx-2'></i>
                                     </a>
                                 </div>
                             </form>
+
 
 
                         </div>

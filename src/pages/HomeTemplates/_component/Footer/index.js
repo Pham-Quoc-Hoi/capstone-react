@@ -30,7 +30,7 @@ export default class FooterHome extends Component {
                         </div>
                     </div>
                     <div className='d-flex mx-5'>
-                        <div className='text-success mr-auto'>Phạm Quốc Hội</div>
+                        <div className='text-success mr-auto'>Made by Phạm Quốc Hội</div>
                         <div className='text-primary'>
                             <a href='/#'> Back To Top
                                 <i className="fa-solid fa-arrow-up-from-bracket mx-2" />

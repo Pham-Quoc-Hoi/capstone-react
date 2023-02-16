@@ -7,7 +7,7 @@ export default class NavbarHome extends Component {
             <nav className="navbar navbar-expand-md bg-dark navbar-dark">
                 <div className='container'>
                     {/* Brand */}
-                    <a className="navbar-brand" href="/#">CyberLearn</a>
+                    <h1 className="navbar-brand" href="/#">CyberLearn</h1>
                     {/* Toggler/collapsibe Button */}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span className="navbar-toggler-icon" />
@@ -22,10 +22,10 @@ export default class NavbarHome extends Component {
                                 <NavLink className={({ isActive }) => isActive ? "bg-white text-dark nav-link" : "nav-link"} to="/#">Liên hệ</NavLink>
                             </li>
                             <li className="nav-item mx-1">
-                                <NavLink className={({ isActive }) => isActive ? "bg-white text-dark nav-link" : "nav-link"} to="/#">Tin tức</NavLink>
+                                <NavLink className={({ isActive }) => isActive ? "bg-white text-dark nav-link" : "nav-link"} to="/news">Tin tức</NavLink>
                             </li>
                             <li className="nav-item mx-1">
-                                <NavLink className={({ isActive }) => isActive ? "bg-white text-dark nav-link" : "nav-link"} to="/#">Ứng dụng</NavLink>
+                                <NavLink className={({ isActive }) => isActive ? "bg-white text-dark nav-link" : "nav-link"} to="/">Ứng dụng</NavLink>
                             </li>
                         </ul>
                     </div>
